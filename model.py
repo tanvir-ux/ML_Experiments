@@ -1,6 +1,8 @@
 import tensorflow as tf 
 from tensorflow import keras
 
+# this is a comment
+
 class My_Model(tf.keras.model):
     def __init__(self):
         super(My_Model, self).__init__()
